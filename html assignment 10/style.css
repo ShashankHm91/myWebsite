@@ -1,0 +1,96 @@
+body{
+    border: 2px solid red;
+    margin: 10px 5px 10px 5px;
+    padding: 0px;
+    background-color: rgb(170, 187, 238);
+}
+
+#top {
+    margin: 5px 10px 0px 10px;
+    border: 2px solid blue;
+    background-color: rgb(148, 137, 158);
+    height: 100px;
+    display: flex;
+
+}
+
+#logo {
+    margin-left: 10px;
+    margin-top: 30px;
+    margin-bottom: 10px;
+}
+
+form {
+    position: absolute;
+    /* display: flex; */
+    margin-top: 50px;
+    margin-left: 83%;
+    border: 1px solid black;
+}
+
+nav {
+    margin: 5px 10px 0px 10px;
+    border: 2px solid rgb(4, 4, 69);
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    background-color: rgb(237, 235, 158);
+
+}
+.c1{
+    display: flex; 
+}
+.items{
+    margin-right: 50px;
+}
+
+.c2 > li{
+    margin-bottom: 25px;
+}
+#a2, #right-side-menu{
+    width: 10%;
+    margin: 20px;
+    justify-content: space-around;
+    border: 1px solid rgb(19, 48, 19);
+}
+#right-side-menu{
+    float: right;
+}
+.c4 > li{
+    margin-bottom: 25px;
+}
+#a2, #right-side-menu{
+    background-color: rgb(176, 146, 146);
+    display: inline-block;
+    height: 450px;
+}
+#main-content-section{
+    background-color: rgb(143, 161, 161);
+    display: inline-block;
+    margin-left: 45px;
+    margin-top: 20px;
+    justify-content: center;
+    position: absolute;
+    border: 1px solid rgb(19, 48, 19);
+    
+}
+.post-img{
+    width: 250px;
+    height: 170px;
+    justify-self: center;
+   margin: 25px;
+   border: 1px solid rgb(18, 63, 18);
+}
+#page-footer{
+    background-color: rgb(133, 132, 132);
+    border: 1px solid rgb(110, 20, 20);
+    margin: 20px;
+    text-align: center;
+}
+p{
+    margin: 5px;
+}
+.items :hover{
+    color: red;
+    font-size: 19px;
+}
